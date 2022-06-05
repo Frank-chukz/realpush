@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>VPayTestLogin</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>e1fbb033-3082-496d-a8a8-b21c239ef020</testSuiteGuid>
+   <testCaseLink>
+      <guid>1bdf0366-a7ee-4c30-bb56-933dea81475b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/VPayT/VPaylogin</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a62b2c42-a619-4f78-abdf-e4c51bee0b2d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/VPayTLogin</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>a62b2c42-a619-4f78-abdf-e4c51bee0b2d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>13da78b2-7f16-4c7a-a726-edd2e50b2a58</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a62b2c42-a619-4f78-abdf-e4c51bee0b2d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>7c0db2b1-82a3-4a87-a78c-0376fbd083bb</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
