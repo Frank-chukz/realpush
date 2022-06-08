@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('alpha.vpay.africa')
+WebUI.navigateToUrl('https://staging.artsplit.com/')
 
 WebUI.closeBrowser()
 
