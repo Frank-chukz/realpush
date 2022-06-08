@@ -19,25 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://github.com/Frank-chukz/LearningKatalon')
+WebUI.navigateToUrl('https://stadmin.artsplit.com/')
 
-WebUI.click(findTestObject('null'))
+WebUI.setText(findTestObject('Object Repository/ARTSPLIT/Page_Artsplit/input_Sign In_register_email'), 'admin.artsplit@givmail.com')
 
-WebUI.click(findTestObject('null'))
+WebUI.setEncryptedText(findTestObject('Object Repository/ARTSPLIT/Page_Artsplit/input_Email address_register_password'), 
+    '8SQVv/p9jVScEs4/2CZsLw==')
 
-WebUI.setText(findTestObject('null'), 'franky67@givmail.com')
-
-WebUI.setEncryptedText(findTestObject('null'), 
-    'TqMLrzn8uxI8RIpxLtjiDA==')
-
-WebUI.setText(findTestObject('null'), 'uam1@givmail.com')
-
-WebUI.setEncryptedText(findTestObject('null'), 
-    'TqMLrzn8uxI8RIpxLtjiDA==')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/ARTSPLIT/Page_Artsplit/button_Sign in'))
 
 WebUI.closeBrowser()
 
